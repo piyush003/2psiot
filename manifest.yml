@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: 2psiot
+  host: 2psiot
+  disk_quota: 1024M
+  services:
+  - 2psiot-cloudantNoSQLDB
+  - 2psiot-iotf-service
